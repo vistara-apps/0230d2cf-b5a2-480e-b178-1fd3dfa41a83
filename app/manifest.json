@@ -1,0 +1,30 @@
+{
+  "frame": {
+    "version": "1",
+    "name": "PocketLawyer AI",
+    "homeUrl": "https://pocketlawyer-ai.vercel.app",
+    "iconUrl": "https://pocketlawyer-ai.vercel.app/icon.png",
+    "splashImageUrl": "https://pocketlawyer-ai.vercel.app/splash.png",
+    "splashBackgroundColor": "#1a1b23",
+    "webhookUrl": "https://pocketlawyer-ai.vercel.app/api/webhook",
+    "subtitle": "Know Your Rights. Instantly.",
+    "description": "Provides individuals with immediate, location-specific legal rights information and action scripts for encounters with law enforcement, enhanced with AI-powered response preview.",
+    "screenshotUrls": [
+      "https://pocketlawyer-ai.vercel.app/screenshot1.png",
+      "https://pocketlawyer-ai.vercel.app/screenshot2.png",
+      "https://pocketlawyer-ai.vercel.app/screenshot3.png"
+    ],
+    "primaryCategory": "utility",
+    "tags": ["legal", "rights", "law enforcement", "ai", "education"],
+    "heroImageUrl": "https://pocketlawyer-ai.vercel.app/hero.png",
+    "tagline": "Know Your Rights. Instantly.",
+    "ogTitle": "PocketLawyer AI - Know Your Rights. Instantly.",
+    "ogDescription": "Get immediate access to location-specific legal rights information and AI-powered scenario guidance for law enforcement encounters.",
+    "ogImageUrl": "https://pocketlawyer-ai.vercel.app/og-image.png"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjkxNTIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMmVmNzkwRGQ3OTkzQTM1ZkQ4NDdDMDUzRURkQUU5NDBEMDU1NTk2In0",
+    "payload": "eyJkb21haW4iOiJwb2NrZXRsYXd5ZXItYWkudmVyY2VsLmFwcCJ9",
+    "signature": "MHgxMGQwZGU4ZGYwZDUwZTdmMGIxN2YxMTU2NDI1MjRmZTY0MTUyZGU4ZGU1MWU0MThiYjU4ZjVmZmQxYjRjNDBiNGVlZTRhNDcwNmVmNjhlMzQ0ZGQ5MDBkYmQyMmNlMmVlZGY5ZGQ0N2JlNWRmNzMwYzUxNjE4OWVjZDJjY2Y0MDFj"
+  }
+}
