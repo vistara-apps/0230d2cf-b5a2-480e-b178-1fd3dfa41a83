@@ -4,10 +4,10 @@ import { forwardRef } from 'react';
 import { cn } from '../../lib/utils';
 import type { CardProps } from '../../lib/types';
 
-export const Card = forwardRef<HTMLDivElement, CardProps>(
+export const Card = forwardRef<HTMLDivElement | HTMLButtonElement, CardProps>(
   ({ variant = 'default', className = '', children, onClick, ...props }, ref) => {
     const baseStyles = 'bg-surface rounded-lg shadow-card border border-surface/50';
-    
+
     const variants = {
       default: 'p-6',
       interactive: 'p-6 cursor-pointer hover:bg-surface/80 hover:border-surface/70 transition-all duration-200 active:scale-[0.98]',
@@ -17,7 +17,7 @@ export const Card = forwardRef<HTMLDivElement, CardProps>(
 
     return (
       <Component
-        ref={ref}
+        ref={ref as any}
         className={cn(
           baseStyles,
           variants[variant],

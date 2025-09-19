@@ -20,7 +20,11 @@ export const metadata: Metadata = {
     title: 'PocketLawyer AI',
     description: 'Know Your Rights. Instantly.',
   },
-  viewport: 'width=device-width, initial-scale=1',
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({
